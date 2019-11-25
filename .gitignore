@@ -1,0 +1,170 @@
+# USE THIS FILE TO SET MARK FILES TO BE IGNORED BY SOURCE CONTROL AT THE
+# APPLICATION OR PROJECT LEVEL
+
+# OPTIONALLY CREATE A .gitignore_global  FILE TO MARK FILES TO BE
+# IGNORED BY SOURCE CONTROL FORALL GIT PROJECTS AND REPOSITORIES.
+# SAVE THIS FILE IN THEROOT DIRECTORY WHERE GIT WAS INITIALLY INSTALLED
+# THIS IS USUALLY THE USER ACCOUNT $HOME DIRECTORY
+
+# USE THIS FILE TO SET MARK FILES TO BE IGNORED BY SOURCE CONTROL AT THE
+# APPLICATION OR PROJECT LEVEL
+
+# OPTIONALLY CREATE A .gitignore_global  FILE TO MARK FILES TO BE
+# IGNORED BY SOURCE CONTROL FORALL GIT PROJECTS AND REPOSITORIES.
+# SAVE THIS FILE IN THE ROOT DIRECTORY WHERE GIT WAS INITIALLY INSTALLED
+# THIS IS USUALLY THE USER ACCOUNT $HOME DIRECTORY
+
+# DEVELOPMENT ASSETS
+**/_dev
+**/_devassets
+**/_dev_assets
+**/_assets
+
+# VISUAL STUDIO AUTO-GENERATED
+**/.vs
+Generated\ Files/
+.localhistory/
+
+# VISUAL STUDIO FILES
+*_i.c
+*_p.c
+*_h.h
+*.ilk
+*.meta
+*.obj
+*.iobj
+*.pch
+*.pdb
+*.ipdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*_wpftmp.csproj
+*.log
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.svclog
+*.scc
+
+# VISUAL STUDIO - USER SPECIFIC
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+*.vbw
+*.opt
+*.plg
+
+# VISUAL C++ - COMPILER FILES
+ipch/
+*.aps
+*.ncb
+*.opendb
+*.opensdf
+*.sdf
+*.cachefile
+*.VC.db
+*.VC.VC.opendb
+
+# VISUAL STUDIO CODE
+*.code-workspace
+.history
+**/.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# BUSINESS INTELLIGENCE FILES
+*.rdl.data
+*.bim.layout
+*.bim_*.settings
+*.rptproj.rsuser
+*- [Bb]ackup.rdl
+*- [Bb]ackup ([0-9]).rdl
+*- [Bb]ackup ([0-9][0-9]).rdl
+
+# COMPILED SOURCE FILES #
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# LOG FILES #
+*.log
+
+# MACOS
+.DS_Store
+.AppleDouble
+.LSOverride
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# WINDOWS
+AppPackages/
+BundleArtifacts/
+Package.StoreAssociation.xml
+_pkginfo.txt
+*.appx
+*.appxbundle
+*.appxupload
+ehthumbs.db
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# NODE MODULES
+**/node_modules
+**/packages
+**/bin
+
+# BOWER MODULES
+**/bower_components
+**/bower_modules
+
+# DREAMWEAVER WORKSPACE
+**/_notes
+
+# CODEKIT 2 WORKSPACE #
+*.codekit-cache
+
+# VISUAL STUDIO CODE WORKSPACE
+*.code-workspace
+
+# SUBLIME TEXT WORKSPACE
+*.sublime-project
+*.sublime-workspace
+
+# GOOGLE ANALYTICS AND WEB SERVER ADMINISTRATION FILES #
+**google*.html
